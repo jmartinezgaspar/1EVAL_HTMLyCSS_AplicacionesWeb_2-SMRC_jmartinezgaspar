@@ -1,0 +1,14 @@
+/*autor:Javier Martinez*/
+
+body{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'roboto', sans-serif;
+}
+p{
+  color: cornflowerblue;  
+}
+.especial{
+  color: aquamarine;
+}
