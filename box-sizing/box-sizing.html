@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>box-sizing: content-box. Interface de usuario. CSS. Páginas web HTML y hojas de estilo CSS. Bartolomé Sintes Marco. www.mclibre.org</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+
+    p.parrafo {
+        width: 200px;
+        height: 100px;
+        box-sizing: content-box;
+        border: red 25px solid;
+    }
+
+    p.parrafo2{
+        width: 200px;
+        height: 100px;
+        box-sizing: border-box;
+        border:red 25px solid;
+    }
+    p {
+      width: 200px;
+      height: 100px;
+      box-sizing: content-box;
+      border: red 25px solid;
+    }
+  </style>
+</head>
+
+<body>
+    <h3>Parrafo 1:content box</h3>
+  <p class="parrafo">Este párrafo tiene un tamaño de 200px por 100px.</p>
+
+  <h3>parrafo 2:Border box</h3>
+  <p class="parrafo2"> este parrafo tiene un tamaño de 200px por 100px</p>
+</body>
+</html>
