@@ -1,0 +1,117 @@
+
+.barranav {
+    background-color: blue;
+    color: aliceblue;
+    float: left;
+    width: 100%;
+    padding: 20px;
+ }
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navegador {
+    color: antiquewhite;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.seguircomp {
+    position: absolute;
+    background-color: blue;
+    border-radius: 20px;
+    top: 22%;
+    margin-left: 60%;
+    text-align: center;
+}
+
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.sigue {
+    margin-left: 1cm;
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: antiquewhite;
+    width: 2cm;
+}
+
+.contbirra {
+    position: relative;
+}
+
+.birras {
+    width: 100%;
+    opacity: 0.7;
+}
+
+hr {
+    border: 1px solid black;
+    width: 60%;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+.contlogo {
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 2cm;
+    
+}
+
+.botetexto {
+    float: left;
+
+}
+
+.texbot {
+    color: blue;
+    margin-top: 20px;
+    width: 60%;
+    text-align: justify;
+}
+
+.texbot::first-letter{
+    border-right: 3px solid violet;
+    font-size: 2em;
+    border-bottom: 3px solid violet;
+}
+.botext {
+    margin-left: 15%;
+}
+
+.gale {
+    width: 150px;
+    height: 210px;
+    float: left;
+}
+
+.galeria {
+    margin-top: 3cm;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #121867;
+    clear: both;
+    padding: 10px;
+    position: relative;
+    
+}
+
+address{
+    text-align: left;
+
+}
+
+.dchos {
+    text-align: center;
+    
+}
